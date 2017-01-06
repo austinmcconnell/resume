@@ -1,0 +1,190 @@
+{
+  "basics": {
+    "name": "Austin McConnell",
+    "label": "Software Engineer",
+    "picture": "",
+    "email": "austin.s.mcconnell@gmail.com",
+    "phone": "(469) 441-4199",
+    "website": "http://austinmcconnell.info",
+    "summary": "Hi. I'm a software developer who has...  I have a security clearance from the US government. In my personal time, I like to dabble in Kaggle competitions, setting up a raspberry pi media server and private cloud via owncloud.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Fort Worth",
+      "countryCode": "US",
+      "region": "TX"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "austinmcconnell",
+        "url": "https://github.com/austinmcconnell"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "austinmcconnell",
+        "url": "https://www.linkedin.com/in/austinmcconnell"
+      },
+      {
+        "network": "Twitter",
+        "username": "austin_s_mcc",
+        "url": "http://twitter.com/austin_s_mcc"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Lockheed Martin",
+      "position": "Data Engineer",
+      "website": "http://lockheedmartin.com",
+      "startDate": "2014-06-14",
+      "endDate": "",
+      "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
+      "highlights": [
+        "Created a multi-threaded and multi-processing agent-based file watcher program in Python for automation of simulation post processing. Multiple pipelines store processed results in a variety of formats and databases",
+        "Yougest Study Lead for contract deliverable. Output from the deliverable was used to directly support prpopsal and negotiation of a $1.9B annualized contract.",
+        "Designed and implemented simulation excursions to explore the effects of X on key sustainment metrics",
+        "Primary modeler in charge of massive 10 year global simulation which included: planned squadron size and flight hours for US and partner countries, planned and actual spare part purchases, engineered and actual failure rates for thousands of parts."
+      ]
+    },
+    {
+      "company": "Lockheed Martin",
+      "position": "Subsystems Integrity and Force Life Management Engineer",
+      "website": "http://lockheedmartin.com",
+      "startDate": "2012-01-16",
+      "endDate": "2014-06-14",
+      "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
+      "highlights": [
+        "Developed standalone software tool using Matlab to parse binary flight data and collect results for team use (~3000 lines of code)",
+        "Provided code design and data analysis for 6 part utilization reports",
+        "Applied statistical analysis to multiple dataset formats and used goodness-of-fit parameters to determine best curve fit option",
+        "Created Access dtatbase and reports to manage limited-life part inspection requirements",
+        "Reviewed qualification requirements and test reports for 4 F-35 subsystems"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Texas A\\&M University",
+      "area": "Aerospace Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2006-08-01",
+      "endDate": "2011-12-01",
+      "gpa": "3.3",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Special Recognition Award",
+      "date": "2016",
+      "awarder": "Lockheed Martin",
+      "summary": "Who?What?Where?Why?When?"
+    },
+    {
+      "title": "Special Recognition Award",
+      "date": "2015",
+      "awarder": "Lockheed Martin",
+      "summary": "There is no spoon."
+    },
+    {
+      "title": "Special Recognition Award",
+      "date": "2013",
+      "awarder": "Lockheed Martin",
+      "summary": "But there is a fork"
+    },
+    {
+      "title": "Lowy Award",
+      "date": "2011",
+      "awarder": "Texas A&M University",
+      "summary": "Awarded to top airplane design team for innovation, technical expertise and teamwork."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Data Analysis",
+      "level": "",
+      "keywords": [
+        "Machine Learning",
+        "Regression",
+        "Clustering",
+        "Classification",
+        "Predictive Analytics",
+        "Web Scraping",
+        "Data Mining"
+      ]
+    },
+    {
+      "name": "Software Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "SQL",
+        "Matlab",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL",
+        "SQL Server Pro"
+      ]
+    },
+    {
+      "name": "Version Control and Deployment",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Ansible",
+        "Vagrant"
+      ]
+    },
+    {
+      "name": "Operating Systems",
+      "level": "",
+      "keywords": [
+        "OS X",
+        "Windows",
+        "Linux"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native Language"
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner"
+    }
+  ],
+  "interests": [
+    {
+      "name": "RaspberryPi",
+      "keywords": [
+        "Plex Media Server",
+        "Owncloud",
+        "VPN"
+      ]
+    },
+    {
+      "name": "Kaggle Competitions",
+      "keywords": [
+        "Titanic",
+        "House Prices"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }
+  ]
+}
