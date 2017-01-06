@@ -1,2 +1,2 @@
-docs/*
-!docs/*.pdf.html
+!docs/index.html
+!docs/resume.pdf
