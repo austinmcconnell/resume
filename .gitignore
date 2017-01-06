@@ -1,2 +1,2 @@
 docs/*
-!*.pdf.html
+!docs/*.pdf.html
