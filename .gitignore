@@ -1,3 +1,1 @@
-docs/
-!docs/index.html
-!docs/images/
+!docs/*.html
