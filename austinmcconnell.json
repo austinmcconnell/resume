@@ -179,11 +179,5 @@
         "House Prices"
       ]
     }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference..."
-    }
   ]
 }
