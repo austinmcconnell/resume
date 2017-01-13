@@ -74,26 +74,31 @@
       "courses": []
     }
   ],
-  "awards": [
+  "awards":[
+    {},
     {
+      "ignore": true,
       "title": "Special Recognition Award",
       "date": "2016",
       "awarder": "Lockheed Martin",
       "summary": "I was recognized for delivery of exceptional simulation results. Specifically, I incorporated actual spares demand and actual part failure data into the simulation model. This improvement increased confidence in the model results which lead to the results being used to support proposal and negotiation of a $1.9B annualized contract."
     },
     {
+      "ignore": true,
       "title": "Special Recognition Award",
       "date": "2015",
       "awarder": "Lockheed Martin",
       "summary": "I was recognized for my efforts in fully-automating the process to run hundreds of simulations, post-process the output, and push results directly to a database. This enormously decreased turn-around time for model developments and enabled the team to provide top-level management support in a timely manner."
     },
     {
+      "ignore": true,
       "title": "Special Recognition Award",
       "date": "2013",
       "awarder": "Lockheed Martin",
       "summary": "I was recognized for my efforts to develop a tool to automatically parse aircraft flight data and store the output in a centralized repository for use in other program tools. This reduced the time to get one signal from 60 minutes to essentially 1 sec as all signals were parsed and stored during the night and were ready for immediate use."
     },
     {
+      "ignore": true,
       "title": "Lowy Award",
       "date": "2011",
       "awarder": "Texas A&M University",
