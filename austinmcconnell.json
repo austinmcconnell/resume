@@ -55,7 +55,7 @@
       "endDate": "2014-06-14",
       "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
       "highlights": [
-        "Developed standalone software tool using Matlab to parse binary flight data and collect results for team use (~3000 lines of code)",
+        "Awarded for my efforts to develop a Matlab tool to automatically parse aircraft flight data and store the output in a centralized repository. This reduced the time to get one signal from 60 minutes to essentially 1 sec as all signals were parsed and stored during the night",
         "Provided code design and data analysis for 6 part utilization reports",
         "Applied statistical analysis to multiple dataset formats and used goodness-of-fit parameters to determine best curve fit option",
         "Created Access database and reports to manage limited-life part inspection requirements",
