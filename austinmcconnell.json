@@ -157,6 +157,7 @@
       "level": "",
       "keywords": [
         "Git",
+        "Travis-CI",
         "Ansible",
         "Vagrant"
       ]
