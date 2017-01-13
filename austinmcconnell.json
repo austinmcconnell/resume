@@ -6,7 +6,7 @@
     "email": "austin.s.mcconnell@gmail.com",
     "phone": "(469) 441-4199",
     "website": "http://austinmcconnell.info",
-    "summary": "Hi. I am an enthusiastic Python software developer with a passion for automation and efficiency. My recent experience includes building an agent-based monitoring program, creating high-quality visualization dashboards using Bokeh and Seaborn, and exploring machine learning techniques. In my personal time, I like to compete in Kaggle competitions, maintain a Raspberry Pi media server and private cloud via owncloud at home, and learn about Python best practices in order to improve my code. I am interested in local and remote Python positions. I have a security clearance from the US government.",
+    "summary": "I am an enthusiastic Python software developer with a passion for automation and efficiency. My recent experience includes building an agent-based monitoring program, creating high-quality visualization dashboards using Bokeh and Seaborn, and exploring machine learning techniques. In my personal time, I like to compete in Kaggle competitions, maintain a Raspberry Pi media server and private cloud via owncloud at home. Also, I am studying Python best practices in order to improve my code. I am interested in local and remote Python positions. I have a security clearance from the US government.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -42,9 +42,9 @@
       "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
       "highlights": [
         "Created a multi-threaded and multi-processing agent-based file watcher program in Python for automation of simulation post processing. Multiple pipelines store processed results in a variety of formats and databases",
-        "Yougest Study Lead for contract deliverable. Output from the deliverable was used to directly support prpopsal and negotiation of a $1.9B annualized contract.",
-        "Designed and implemented simulation excursions to explore the effects of X on key sustainment metrics",
-        "Primary modeler in charge of massive 10 year global simulation which included: planned squadron size and flight hours for US and partner countries, planned and actual spare part purchases, engineered and actual failure rates for thousands of parts."
+        "Yougest Study Lead for contract deliverable. Output from the deliverable was used to directly support negotiation of a $1.9B annualized contract",
+        "Designed and implemented simulation excursions to explore the effects of proposed business expenditures on key sustainment metrics",
+        "Primary modeler in charge of massive 10 year global simulation which included planned squadron size and flight hours for US and partner countries, planned and actual spare part purchases, and engineered and actual failure rates for thousands of parts"
       ]
     },
     {
@@ -66,9 +66,9 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "Texas A\\&M University",
+      "institution": "Texas A&M University",
       "area": "Aerospace Engineering",
-      "studyType": "Bachelor",
+      "studyType": "Bachelor of Science",
       "startDate": "2006-08-01",
       "endDate": "2011-12-01",
       "courses": []
@@ -178,7 +178,7 @@
   ],
   "interests": [
     {
-      "name": "RaspberryPi",
+      "name": "Raspberry Pi",
       "keywords": [
         "Plex Media Server",
         "Owncloud",
