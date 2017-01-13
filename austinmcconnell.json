@@ -41,7 +41,7 @@
       "endDate": "",
       "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
       "highlights": [
-        "Awarded for my efforts in fully-automating the process to run hundreds of simulations, post-process the output, and push results directly to a database. This enormously decreased turn-around time for model developments and enabled the team to provide top-level management support in a timely manner.",
+        "Awarded for my efforts in fully-automating the process to run hundreds of simulations, post-process the output, and push results directly to a database. This enormously decreased turn-around time for model developments and enabled the team to provide top-level management support in a timely manner",
         "Created a multi-threaded and multi-processing agent-based file watcher program in Python for automation of simulation post processing. Multiple pipelines store processed results in a variety of formats and databases",
         "Yougest Study Lead for contract deliverable. Output from the deliverable was used to directly support negotiation of a $1.9B annualized contract",
         "Primary modeler in charge of massive 10 year global simulation which included planned squadron size and flight hours for US and partner countries, planned and actual spare part purchases, and engineered and actual failure rates for thousands of parts"
