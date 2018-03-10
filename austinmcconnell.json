@@ -34,11 +34,21 @@
   },
   "work": [
     {
+      "company": "Real Massive",
+      "position": "Full Stack Engineer",
+      "website": "https://realmassive.com",
+      "startDate": "2017-05-22",
+      "endDate": "",
+      "summary": "I create Flask web applications and manage ETL pipelines",
+      "highlights": [
+      ]
+    },
+    {
       "company": "Lockheed Martin",
       "position": "Data Engineer",
       "website": "http://lockheedmartin.com",
       "startDate": "2014-06-14",
-      "endDate": "",
+      "endDate": "2017-04-28",
       "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
       "highlights": [
         "Awarded for my efforts in fully-automating the process to run hundreds of simulations, post-process the output, and push results directly to a database. This enormously decreased turn-around time for model developments and enabled the team to provide top-level management support in a timely manner",
