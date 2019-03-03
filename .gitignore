@@ -1,1 +1,2 @@
-!docs/*.html
+node_modules/
+TODO.md
