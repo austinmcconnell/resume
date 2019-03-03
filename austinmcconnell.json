@@ -3,14 +3,14 @@
     "name": "Austin McConnell",
     "label": "Software Engineer",
     "picture": "img/austin_profile_verona.png",
-    "email": "austin.s.mcconnell@gmail.com",
+    "email": "austin@austinmcconnell.dev",
     "phone": "(469) 441-4199",
-    "website": "https://austinmcconnell.github.io",
+    "website": "https://austinmcconnell.dev",
     "summary": "I am an enthusiastic Python software developer with a passion for automation and efficiency. My recent experience includes building an agent-based monitoring program, creating high-quality visualization dashboards using Bokeh and Seaborn, and exploring machine learning techniques. In my personal time, I like to compete in Kaggle competitions, maintain a Raspberry Pi media server and private cloud via owncloud at home. Also, I am studying Python best practices in order to improve my code. I am interested in local and remote Python positions. I have a security clearance from the US government.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Austin",
+      "city": "Cedar Park",
       "countryCode": "US",
       "region": "TX"
     },
