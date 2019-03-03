@@ -1,0 +1,27 @@
+{
+  "title": "Resume",
+  "name": "resume",
+  "version": "0.0.1",
+  "description": "Hello! You've found the repository for my online resume.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinmcconnell/resume.git"
+  },
+  "dependencies": {
+    "hackmyresume": "1.9.0-beta",
+    "jsonresume-theme-kendall": "0.1.19"
+  },
+  "devDependencies": {},
+  "bugs": {},
+  "homepage": "https://github.com/austinmcconnell/resume",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "hackmyresume build austinmcconnell.json TO index.html --theme node_modules/jsonresume-theme-kendall"
+  }
+}
