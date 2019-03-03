@@ -1,0 +1,62 @@
+version: 2
+jobs:
+  build_docs:
+    docker:
+      - image: circleci/node:11
+    environment:
+      - SOURCE_BRANCH: master
+      - TARGET_BRANCH: gh-pages
+    steps:
+      - checkout
+      - add_ssh_keys:
+          fingerprints:
+            - "e4:65:2a:c4:36:e7:cf:74:19:2e:d4:43:62:9a:7b:34"
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package-lock.json" }}
+            - v1-dependencies-
+      - run:
+          name: Install dependencies
+          command: |
+            npm install
+            sudo npm install --global
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
+      - deploy:
+          name: Deploy
+          command: |
+            if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
+              git config --global user.email $GH_EMAIL
+              git config --global user.name $GH_NAME
+
+              git clone $CIRCLE_REPOSITORY_URL out
+
+              cd out
+              git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
+              git rm -rf .
+              cd ..
+
+              npm run build
+
+              cp -a img/ out/img
+              cp -a index.html out/
+              mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
+              cd out
+
+              git add -A
+              git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
+
+              git push origin $TARGET_BRANCH
+            fi
+workflows:
+  version: 2
+  build_documentation:
+    jobs:
+      - build_docs:
+          filters:
+            branches:
+              only: master
+            tags:
+              ignore: /.*/
