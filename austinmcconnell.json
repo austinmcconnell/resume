@@ -4,9 +4,9 @@
     "label": "Software Engineer",
     "picture": "img/austin_profile_verona.png",
     "email": "austin@austinmcconnell.dev",
-    "phone": "(469) 441-4199",
+    "phone": "469-441-4199",
     "website": "https://austinmcconnell.dev",
-    "summary": "I am an enthusiastic Python software developer with a passion for automation and efficiency. My recent experience includes building an agent-based monitoring program, creating high-quality visualization dashboards using Bokeh and Seaborn, and exploring machine learning techniques. In my personal time, I like to compete in Kaggle competitions, maintain a Raspberry Pi media server and private cloud via owncloud at home. Also, I am studying Python best practices in order to improve my code. I am interested in local and remote Python positions. I have a security clearance from the US government.",
+    "summary": "I build performant web apps, REST APIs, and ETL Pipelines. I emphasize clean, maintainable code with a focus on readability and language-specific best practices. I build fully-automated CI/CD pipelines and I practice infrastructure-as-code. I have held a security clearance from the US government.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,28 +31,39 @@
     {
       "company": "Real Massive",
       "position": "Full Stack Engineer",
+      "location": "Austin, TX",
       "website": "https://realmassive.com",
       "startDate": "2017-05-22",
       "endDate": "",
-      "summary": "I create Flask web applications and manage ETL pipelines",
+      "summary": "Joined RealMassive to improve the existing application development/deployment process and environment.",
       "highlights": [
+        "Built and deployed an ETL pipeline in Python that can process 3.6 Million records per day.",
+        "Saved company 50k per year by optimizing infrastructure needs and application memory/cpu requirements",
+        "Reduced Docker image sizes by 400% by rebuilding existing containers using best practices.",
+        "Co-led backend development effort for major redesign of products and platform. Closely worked with Product Owner to define and clarify requirements.",
+        "Created and maintained fully automated CI/CD pipelines for code deployment using CircleCI.",
+        "Maintained existing and deployed new microservices using Kubernetes, Terraform, and Helm for repeatable infrastructure deployments across multiple environments.",
+        "Designed a new database model schema for ingestion pipeline based on product requirements.",
+        "Implemented tooling to improve developer velocity using git pre-commit hooks. These hooks automatically perform 15+ checks that ensure code meets development standards which reduces subjectivity in PRs and increases maintainability of our code bases."
       ]
     },
     {
       "company": "Lockheed Martin",
       "position": "Data Engineer",
+      "location": "Fort Worth, TX",
       "website": "http://lockheedmartin.com",
       "startDate": "2014-06-14",
       "endDate": "2017-04-28",
-      "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
+      "summary": "Joined Lockheed Martin Modeling & Analysis team to lead global aircraft logistics simulation effort. Obtained a government security clearance.",
       "highlights": [
-        "Awarded for my efforts in fully-automating the process to run hundreds of simulations, post-process the output, and push results directly to a database. This enormously decreased turn-around time for model developments and enabled the team to provide top-level management support in a timely manner",
-        "Created a multi-threaded and multi-processing agent-based file watcher program in Python for automation of simulation post processing. Multiple pipelines store processed results in a variety of formats and databases",
-        "Yougest Study Lead for contract deliverable. Output from the deliverable was used to directly support negotiation of a $1.9B annualized contract",
-        "Primary modeler in charge of massive 10 year global simulation which included planned squadron size and flight hours for US and partner countries, planned and actual spare part purchases, and engineered and actual failure rates for thousands of parts"
+        "Youngest Study Lead ever for government contract deliverable. Output from the deliverable was used to directly support negotiation of a $1.9B annualized contract.",
+        "Successfully decreased the time and cost to produce contract deliverable by 90% by fully automating the simulation, analysis, and report generation process.",
+        "Created a multi-threaded, multi-processing agent-based file watcher program in Python for automation of simulation post-processing. Multiple pipelines stored processed results in a variety of formats and databases.",
+        "Primary modeler in charge of massive 10-year global simulation which included planned squadron size and flight hours for US and partner countries, planned and actual spare part purchases, and engineered and actual failure rates for thousands of parts."
       ]
     },
     {
+      "ignore": true,
       "company": "Lockheed Martin",
       "position": "Subsystems Integrity and Force Life Management Engineer",
       "website": "http://lockheedmartin.com",
@@ -60,11 +71,11 @@
       "endDate": "2014-06-14",
       "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
       "highlights": [
-        "Awarded for my efforts to develop a Matlab tool to automatically parse aircraft flight data and store the output in a centralized repository. This reduced the time to get one signal from 60 minutes to essentially 1 sec as all signals were parsed and stored during the night",
-        "Provided code design and data analysis for 6 part utilization reports",
-        "Applied statistical analysis to multiple dataset formats and used goodness-of-fit parameters to determine best curve fit option",
-        "Created Access database and reports to manage limited-life part inspection requirements",
-        "Reviewed qualification requirements and test reports for 4 F-35 subsystems"
+        "Wrote custom software to automatically detect and parse raw aircraft flight data and store the results in a database.",
+        "Provided code design and data analysis for 6 part utilization reports.",
+        "Applied statistical analysis to multiple dataset formats and used goodness-of-fit parameters to determine best curve fit option.",
+        "Created Access database and reports to manage limited-life part inspection requirements.",
+        "Reviewed qualification requirements and test reports for 4 F-35 subsystems."
       ]
     }
   ],
@@ -72,6 +83,7 @@
   "education": [
     {
       "institution": "Texas A&M University",
+      "location": "College Station, TX",
       "area": "Aerospace Engineering",
       "studyType": "Bachelor of Science",
       "startDate": "2006-08-01",
@@ -79,128 +91,27 @@
       "courses": []
     }
   ],
-  "awards":[
-    {
-      "ignore": true,
-      "title": "Special Recognition Award",
-      "date": "2016",
-      "awarder": "Lockheed Martin",
-      "summary": "I was recognized for delivery of exceptional simulation results. Specifically, I incorporated actual spares demand and actual part failure data into the simulation model. This improvement increased confidence in the model results which lead to the results being used to support proposal and negotiation of a $1.9B annualized contract."
-    },
-    {
-      "ignore": true,
-      "title": "Special Recognition Award",
-      "date": "2015",
-      "awarder": "Lockheed Martin",
-      "summary": "I was recognized for my efforts in fully-automating the process to run hundreds of simulations, post-process the output, and push results directly to a database. This enormously decreased turn-around time for model developments and enabled the team to provide top-level management support in a timely manner."
-    },
-    {
-      "ignore": true,
-      "title": "Special Recognition Award",
-      "date": "2013",
-      "awarder": "Lockheed Martin",
-      "summary": "I was recognized for my efforts to develop a tool to automatically parse aircraft flight data and store the output in a centralized repository for use in other program tools. This reduced the time to get one signal from 60 minutes to essentially 1 sec as all signals were parsed and stored during the night and were ready for immediate use."
-    },
-    {
-      "ignore": true,
-      "title": "Lowy Award",
-      "date": "2011",
-      "awarder": "Texas A&M University",
-      "summary": "Awarded to top airplane design team for innovation, technical expertise and teamwork."
-    }
-  ],
+  "awards":[],
   "publications": [],
   "skills": [
     {
-      "name": "Data Analysis",
-      "level": "",
-      "keywords": [
-        "Machine Learning",
-        "Regression",
-        "Clustering",
-        "Classification",
-        "Predictive Analytics",
-        "Web Scraping",
-        "Data Mining"
-      ]
-    },
-    {
-      "name": "Software Languages",
+      "name": "",
       "level": "",
       "keywords": [
         "Python",
-        "SQL",
-        "Matlab",
-        "Bash"
-      ]
-    },
-    {
-      "name": "Python Packages",
-      "level": "",
-      "keywords": [
-        "Jupyter Notebook",
-        "Pandas",
-        "scikit-learn",
-        "Bokeh",
-        "Seaborn",
+        "Flask",
         "SQLAlchemy",
-        "Scrapy"
-      ]
-    },
-    {
-      "name": "Databases",
-      "level": "",
-      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Amazon Web Services (AWS)",
         "PostgreSQL",
-        "MySQL",
-        "SQL Server Pro"
-      ]
-    },
-    {
-      "name": "Version Control and Deployment",
-      "level": "",
-      "keywords": [
+        "SQL",
         "Git",
-        "Travis-CI",
-        "Ansible",
-        "Vagrant"
-      ]
-    },
-    {
-      "name": "Operating Systems",
-      "level": "",
-      "keywords": [
-        "OS X",
-        "Windows",
-        "Linux"
+        "CircleCI"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native Language"
-    },
-    {
-      "language": "German",
-      "fluency": "Beginner"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Raspberry Pi",
-      "keywords": [
-        "Plex Media Server",
-        "Owncloud",
-        "VPN"
-      ]
-    },
-    {
-      "name": "Kaggle Competitions",
-      "keywords": [
-        "Titanic",
-        "House Prices"
-      ]
-    }
-  ]
+  "languages": [],
+  "interests": []
 }
