@@ -23,6 +23,6 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "hackmyresume build austinmcconnell.json TO index.html --theme node_modules/jsonresume-theme-austinmcconnell"
+    "build": "hackmyresume build resume.json TO index.html --theme node_modules/jsonresume-theme-austinmcconnell"
   }
 }
