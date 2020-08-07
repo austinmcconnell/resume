@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "hackmyresume": "1.9.0-beta",
-    "jsonresume-theme-kendall": "0.1.19",
+    "jsonresume-theme-austinmcconnell": "0.0.1",
     "lodash": ">=4.17.11"
   },
   "devDependencies": {},
@@ -23,6 +23,6 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "hackmyresume build austinmcconnell.json TO index.html --theme node_modules/jsonresume-theme-kendall"
+    "build": "hackmyresume build austinmcconnell.json TO index.html --theme node_modules/jsonresume-theme-austinmcconnell"
   }
 }
