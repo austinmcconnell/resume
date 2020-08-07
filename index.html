@@ -1,738 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
     
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Resume of Austin McConnell</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-        rel="stylesheet">
-        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        rel="stylesheet">
-        <style type="text/css">
-            @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
-        @charset "utf-8";
-        @-webkit-viewport   { width: device-width; }
-        @-moz-viewport      { width: device-width; }
-        @-ms-viewport       { width: device-width; }
-        @-o-viewport        { width: device-width; }
-        @viewport           { width: device-width; }
-        
-        body{
-          font-family: 'Open Sans', Arial, Tahoma;
-          font-weight: 400;
-          color: #363636;
-          background: #334960;
-        }
-        blockquote {
-          font-size: 1em;
-        }
-        
-        .container{
-          margin-top: 80px;
-          margin-bottom: 15px;
-          background: #fff;
-        }
-        
-        #photo-header{
-          margin-top: -75px;
-        }
-        #photo{
-          width: 160px;
-          height: 160px;
-          border-radius: 50%;
-          overflow: hidden;
-          padding: 5px;
-          background: #334960;
-          display: inline-block;
-        }
-        #photo img{
-          width: 150px;
-          height: 150px;
-          border-radius: 50%;
-        }
-        #text-header h1{
-          margin: 0;
-          padding: 0;
-          font-size: 1.5em;
-          font-weight: 700;
-          text-transform: uppercase;
-          letter-spacing: -1px;
-        }
-        #text-header h1::first-line{
-          font-size: 1.5em;
-          font-weight: 800;
-          line-height: 1.5em;
-        }
-        #text-header h1 span{
-          color: #334960;
-          opacity: 0.7;
-        }
-        #text-header h1 sup{
-          opacity: 0.5;
-        }
-        #text-header:after{
-          width: 100%;
-          height: 3px;
-          border-bottom: 1px solid #ddd;
-          margin-top: 15px;
-          content: '';
-          display: block;
-        }
-        
-        .box{
-          padding-bottom: 10px;
-          margin-bottom: 25px;
-        }
-        .box h2{
-          color: #227c74;
-          font-size: 1.5em;
-          font-weight: 700;
-          text-transform: uppercase;
-        }
-        
-        #awards,
-        #education{
-          margin-top: 20px;
-          margin-bottom: 0;
-          position: relative;
-          padding: 1em 0;
-          list-style: none;
-        }
-        #awards:before,
-        #education:before {
-          width: 5px;
-          height: 100%;
-          position: absolute;
-          left: 35px;
-          top: 0;
-          content: ' ';
-          display: block;
-          background: #32475c;
-          background: -moz-linear-gradient(top,  #ffffff 0%, #32475c 7%, #32475c 89%, #ffffff 100%);
-          background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(7%,#32475c), color-stop(89%,#32475c), color-stop(100%,#ffffff));
-          background: -webkit-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-          background: -o-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-          background: -ms-linear-gradient(top,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-          background: linear-gradient(to bottom,  #ffffff 0%,#32475c 7%,#32475c 89%,#ffffff 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-        }
-        #awards li,
-        #education li{
-          width: 100%;
-          z-index: 2;
-          position: relative;
-          float: left;
-        }
-        #awards .year,
-        #education .year{
-          width: 14%;
-          background: #fff;
-          padding: 10px;
-          font-weight: 700;
-          display: inline-block;
-        }
-        #awards .description,
-        #education .description{
-          width: 83%;
-          display: inline-block;
-          background: #eee;
-          margin-bottom: 10px;
-          position: relative;
-          padding: 10px;
-          border-bottom: 1px solid #ccc;
-          border-right: 1px solid #ccc;
-        }
-        #awards .description:after,
-        #education .description:after {
-          content: '';
-          position: absolute;
-          top: 15px;
-          right: 0;
-          left: -16px;
-          height: 0;
-          width: 0;
-          border: solid transparent;
-          border-right-color: #eee;
-          border-width: 8px;
-          pointer-events: none;
-        }
-        #awards .description h3,
-        #education .description h3{
-          font-size: 1.2em;
-          margin: 0;
-          padding: 0;
-          font-weight: 700;
-        }
-        #awards .description p,
-        #education .description p{
-          margin-top: 5px;
-          padding: 0;
-        }
-        
-        .job{
-          margin-bottom: 15px;
-        }
-        .job .details {
-          margin-left: 3%;
-          width: 95%;
-          padding: 10px;
-          margin-bottom: 10px;
-          background: #eee;
-          border-bottom: 1px solid #ccc;
-          border-right: 1px solid #ccc;
-        }
-        .job .where{
-          font-size: 1.2em;
-          font-weight: bold;
-        }
-        .job .year{
-          opacity: 0.7;
-        }
-        .job .profession{
-          font-size: 1.2em;
-          font-weight: bold;
-        }
-        .job .description{
-          line-height: 1.5em;
-        }
-        .job .highlights{
-          padding: 5px 0;
-          font-weight: bold;
-        }
-        .job .job-details {
-          padding-left: 5%;
-          width: 100%;
-        }
-        .publication {
-          margin-bottom: 0;
-        }
-        .publication .name{
-          font-size: 1em;
-          font-weight: bold;
-        }
-        .publication .year{
-            opacity: 0.7;
-        }
-        .publication p{
-          margin: 0;
-          padding-top: 10px;
-        }
-        
-        .contact-item{
-          width: 100%;
-          float: left;
-        }
-        .contact-item .icon{
-          padding: 10px;
-          border-right: 1px solid #ccc;
-          border-bottom: 1px solid #ccc;
-          color: #32475c;
-          background: #eee;
-        }
-        .contact-item:last-child .icon{
-          border-bottom: none;
-        }
-        .contact-item .title{
-          width: 80%;
-          width: calc(100% - 55px);
-          font-weight: 700;
-          opacity: 0.9;
-        }
-        .contact-item .title.only{
-          margin-top: 10px;
-        }
-        .contact-item .description{
-          width: 80%;
-          width: calc(100% - 55px);
-          color: #334960;
-        }
-        
-        .item-interests,
-        .item-skills{
-          height: 30px;
-          color: #334960;
-          padding: 5px 10px;
-          margin-bottom: 5px;
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          font-size: 1.1em;
-          font-weight: 600;
-        }
-        .interest,
-        .skill{
-          color: #fff;
-          display: inline-block;
-          margin-right: 5px;
-          margin-bottom: 5px;
-          padding: 5px 10px;
-          background: #32475c;
-          position: relative;
-          font-size: .85em;
-        }
-        .skill-level {
-          background-color: #227c74;
-          border-radius: 4px;
-          color: #fff;
-          padding: 1px 8px;
-          font-size: .75em;
-          position: absolute;
-          margin: 1px 10px;
-        }
-        
-        #language-skills .skill{
-          margin: 10px 0;
-          padding-bottom: 10px;
-          border-bottom: 1px solid #eee;
-        }
-        </style>
-        <style type="text/css" media="print">
-            body {
-          font-size: .95em;
-          -webkit-print-color-adjust: exact;
-        }
-        
-        a[href]:after {
-          content: none !important;
-        }
-        
-        #photo{
-          display: none;
-        }
-        
-        .box {
-          margin-bottom: -10px;
-        }
-        
-        blockquote,
-        #education,
-        #awards,
-        .contact-item,
-        .publication,
-        .skills,
-        .interests {
-          page-break-inside: avoid;
-        }
-        
-        .col-sm-5{
-          width: 40%;
-          padding: 0 15px;
-        }
-        
-        .col-sm-7{
-          width: 60%;
-          padding: 0 15px;
-        }
-        
-        .skills .col-sm-offset-1,
-        .interests .col-sm-offset-1{
-          margin-top: -10px;
-          margin-bottom: 5px;
-        }
-        
-        #education {
-          margin: 0;
-          margin-bottom: -20px;
-        }
-        #awards:before,
-        #education:before {
-          background: none;
-        }
-        
-        #awards .description,
-        #education .description,
-        .job .details {
-          border: 1px solid #eee;
-        }
-        .publication,
-        .publication .panel-heading,
-        .publication .name{
-          margin: 0;
-          padding: 0 5px;
-          border: none;
-        }
-        .publication .panel-body {
-          padding: 0 10px;
-          margin: 0;
-        }
-        
-        .badge {
-          margin: 0;
-        }
-        
-        .list-group-item{
-          border: none;
-          margin: 0;
-          padding: 5px 15px;
-        }
-        .list-group-item:after{
-          content: '';
-          position: absolute;
-          top: 8px;
-          right: 0;
-          left: -1px;
-          height: 0;
-          width: 0;
-          border: solid transparent;
-          border-right-color: #999;
-          border-width: 4px;
-          pointer-events: none;
-         }
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>Austin McConnell</title>
+        <style>
+            html {
+	font-size: 12pt; /* 12pt == 16px == 100% */
+}
+body {
+	background: #fff;
+	/*font: 15px "Open Sans", Calibri, Helvetica, sans-serif;*/
+	font-size: .95rem;
+	font-family: Calibri, Helvetica, sans-serif;;
+	line-height: 1.4;
+	/*margin: 50px 0;*/
+	margin-top: 0px;
+	margin-bottom: 100px;
+}
+a, a:visited{
+     color: blue;
+}
+em {
+	color: #999;
+}
+p {
+	line-height: 1.4;
+}
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+.item {
+	margin-bottom: 1em;
+}
+#resume {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 2.7rem;
+	text-align: center;
+	max-height: 25px;
+}
+
+h2 {
+	font-size: 1.5rem;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#work h3 {
+	margin-bottom: 0px;
+	display: inline;
+	text-transform: uppercase;
+}
+
+span.position:before, span.location:before, span.date:before {
+	content:'|';
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#work span.position{
+	font-weight: bold;
+}
+
+#basics hr.style2 {
+	margin-bottom: 2em;
+}
+
+#basics .h3 {
+	margin-top: 1.5em;
+}
+
+.dot{
+	font-size: 2rem;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#basics > div.contact {
+	text-align: center;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+#basics .contact strong {
+	clear: both;
+	margin-right: 5px;
+	line-height: 1.3;
+	width: 120px;
+}
+
+#basics > div.summary {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#work div > p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-style: italic;
+}
+
+ul.highlights {
+	margin-top: 0px;
+	padding-left: 20px;
+}
+
+#skills .item {
+	text-align: center;
+	width: 95%
+}
+
+
+#education span.location:before, #education span.year:before{
+	content:'\2022';
+	margin-left: 3px;
+	margin-right: 3px;
+	font-size: 1rem;
+	vertical-align: middle;
+}
+
+
+#skills ul.keywords {padding-inline-start: 0px;}
+#skills ul li { list-style: none; display: inline;}
+#skills ul li:after { content: " \00b7"; }
+#skills ul li:last-child:after { content: none; }
+
+@media print {
+	html {
+		font-size: 10pt; /* 12pt == 16px == 100% */
+	}
+
+	body {
+		line-height: 1.2;
+	}
+
+	@page {
+		size: auto;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
         </style>
     </head>
     
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div id="photo-header" class="text-center">
-                        <!-- PHOTO (AVATAR) -->
-                        <div id="photo">
-                            <img src="img&#x2F;austin_profile_verona.png" alt="avatar">
-                        </div>
-                        <div id="text-header">
-                             <h1>Austin McConnell<br><span>Software Engineer</span></h1>
+        <div id="resume">
+             <h1>Austin McConnell</h1>
 
-                        </div>
-                    </div>
+            <section id="basics">
+                <div class="contact"> <span class="email">
+                        <strong>E</strong>
+                        <a href="mailto:austin@austinmcconnell.dev">austin@austinmcconnell.dev</a>
+                    </span>
+ <span class="dot">&#183</span>
+ <span class="phone"><strong>P</strong>+1 469-441-4199</span>
+
+                    <span
+                    class="dot">&#183</span> <span class="website"><strong>W</strong><a href="https://austinmcconnell.dev">https://austinmcconnell.dev</a></span>
+
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-7">
-                    <!-- ABOUT ME -->
-                    <div class="box">
-                         <h2><i class="fa fa-user ico"></i> About</h2>
+                <hr class="style2">
+                 <h2>Summary of Qualifications</h2>
 
-                        <p>I am an enthusiastic Python software developer with a passion for automation
-                            and efficiency. My recent experience includes building an agent-based monitoring
-                            program, creating high-quality visualization dashboards using Bokeh and
-                            Seaborn, and exploring machine learning techniques. In my personal time,
-                            I like to compete in Kaggle competitions, maintain a Raspberry Pi media
-                            server and private cloud via owncloud at home. Also, I am studying Python
-                            best practices in order to improve my code. I am interested in local and
-                            remote Python positions. I have a security clearance from the US government.</p>
-                    </div>
-                    <!-- WORK EXPERIENCE -->
-                    <div class="box">
-                         <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
-
-                        <div class="job clearfix">
-                            <div class="row">
-                                <div class="details">
-                                    <div class="where">Real Massive</div>
-                                    <div class="address"> <a href="https:&#x2F;&#x2F;realmassive.com" target="_blank"><i class="fa fa-globe ico"></i> https:&#x2F;&#x2F;realmassive.com</a>
-
-                                    </div>
-                                    <div class="year">May 2017 – Present</div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="job-details col-xs-11">
-                                    <div class="profession">Full Stack Engineer</div>
-                                    <div class="description">I create Flask web applications and manage ETL pipelines</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job clearfix">
-                            <div class="row">
-                                <div class="details">
-                                    <div class="where">Lockheed Martin</div>
-                                    <div class="address"> <a href="http:&#x2F;&#x2F;lockheedmartin.com" target="_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;lockheedmartin.com</a>
-
-                                    </div>
-                                    <div class="year">June 2014 – April 2017</div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="job-details col-xs-11">
-                                    <div class="profession">Data Engineer</div>
-                                    <div class="description">Lockheed Martin is a global aerospace company that is principally engaged
-                                        in the research, design, development, manufacture, integration, and sustainment
-                                        of military aircraft.
-                                        <div class="highlights">Highlights</div>
-                                        <ul class="list-group">
-                                            <li class="list-group-item">Awarded for my efforts in fully-automating the process to run hundreds
-                                                of simulations, post-process the output, and push results directly to a
-                                                database. This enormously decreased turn-around time for model developments
-                                                and enabled the team to provide top-level management support in a timely
-                                                manner</li>
-                                            <li class="list-group-item">Created a multi-threaded and multi-processing agent-based file watcher
-                                                program in Python for automation of simulation post processing. Multiple
-                                                pipelines store processed results in a variety of formats and databases</li>
-                                            <li
-                                            class="list-group-item">Yougest Study Lead for contract deliverable. Output from the deliverable
-                                                was used to directly support negotiation of a $1.9B annualized contract</li>
-                                                <li
-                                                class="list-group-item">Primary modeler in charge of massive 10 year global simulation which included
-                                                    planned squadron size and flight hours for US and partner countries, planned
-                                                    and actual spare part purchases, and engineered and actual failure rates
-                                                    for thousands of parts</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="job clearfix">
-                            <div class="row">
-                                <div class="details">
-                                    <div class="where">Lockheed Martin</div>
-                                    <div class="address"> <a href="http:&#x2F;&#x2F;lockheedmartin.com" target="_blank"><i class="fa fa-globe ico"></i> http:&#x2F;&#x2F;lockheedmartin.com</a>
-
-                                    </div>
-                                    <div class="year">January 2012 – June 2014</div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="job-details col-xs-11">
-                                    <div class="profession">Subsystems Integrity and Force Life Management Engineer</div>
-                                    <div class="description">Lockheed Martin is a global aerospace company that is principally engaged
-                                        in the research, design, development, manufacture, integration, and sustainment
-                                        of military aircraft.
-                                        <div class="highlights">Highlights</div>
-                                        <ul class="list-group">
-                                            <li class="list-group-item">Awarded for my efforts to develop a Matlab tool to automatically parse
-                                                aircraft flight data and store the output in a centralized repository.
-                                                This reduced the time to get one signal from 60 minutes to essentially
-                                                1 sec as all signals were parsed and stored during the night</li>
-                                            <li class="list-group-item">Provided code design and data analysis for 6 part utilization reports</li>
-                                            <li
-                                            class="list-group-item">Applied statistical analysis to multiple dataset formats and used goodness-of-fit
-                                                parameters to determine best curve fit option</li>
-                                                <li class="list-group-item">Created Access database and reports to manage limited-life part inspection
-                                                    requirements</li>
-                                                <li class="list-group-item">Reviewed qualification requirements and test reports for 4 F-35 subsystems</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- AWARDS -->
-                    <div class="box">
-                         <h2><i class="fa fa-certificate ico"></i> Awards</h2>
-
-                        <ul id="awards" class="clearfix">
-                            <li>
-                                <div class="year pull-left">2016</div>
-                                <div class="description pull-right">
-                                     <h3>Lockheed Martin</h3>
-
-                                    <p><i class="fa fa-trophy ico"></i> Special Recognition Award</p>
-                                    <p>I was recognized for delivery of exceptional simulation results. Specifically,
-                                        I incorporated actual spares demand and actual part failure data into the
-                                        simulation model. This improvement increased confidence in the model results
-                                        which lead to the results being used to support proposal and negotiation
-                                        of a $1.9B annualized contract.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="year pull-left">2015</div>
-                                <div class="description pull-right">
-                                     <h3>Lockheed Martin</h3>
-
-                                    <p><i class="fa fa-trophy ico"></i> Special Recognition Award</p>
-                                    <p>I was recognized for my efforts in fully-automating the process to run
-                                        hundreds of simulations, post-process the output, and push results directly
-                                        to a database. This enormously decreased turn-around time for model developments
-                                        and enabled the team to provide top-level management support in a timely
-                                        manner.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="year pull-left">2013</div>
-                                <div class="description pull-right">
-                                     <h3>Lockheed Martin</h3>
-
-                                    <p><i class="fa fa-trophy ico"></i> Special Recognition Award</p>
-                                    <p>I was recognized for my efforts to develop a tool to automatically parse
-                                        aircraft flight data and store the output in a centralized repository for
-                                        use in other program tools. This reduced the time to get one signal from
-                                        60 minutes to essentially 1 sec as all signals were parsed and stored during
-                                        the night and were ready for immediate use.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="year pull-left">2011</div>
-                                <div class="description pull-right">
-                                     <h3>Texas A&amp;M University</h3>
-
-                                    <p><i class="fa fa-trophy ico"></i> Lowy Award</p>
-                                    <p>Awarded to top airplane design team for innovation, technical expertise
-                                        and teamwork.</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="summary">
+                    <p>I build performant web apps, REST APIs, and ETL Pipelines. I emphasize
+                        clean, maintainable code with a focus on readability and language-specific
+                        best practices. I build fully-automated CI/CD pipelines and I practice
+                        infrastructure-as-code. I have held a security clearance from the US government.</p>
                 </div>
-                <div class="col-xs-12 col-sm-5">
-                    <!-- CONTACT -->
-                    <div class="box clearfix">
-                         <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
+                <hr class="style2">
+            </section>
+            <section id="work">
+                 <h2>Work Experience</h2>
 
-                        <div class="contact-item">
-                            <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span>
-                            </div>
-                            <div class="title only  pull-right">Cedar Park, TX US</div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span>
-                            </div>
-                            <div class="title only pull-right">(469) 441-4199</div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span>
-                            </div>
-                            <div class="title only pull-right"><a href="mailto:austin@austinmcconnell.dev" target="_blank">austin@austinmcconnell.dev</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span>
-                            </div>
-                            <div class="title only pull-right"><a href="https:&#x2F;&#x2F;austinmcconnell.dev" target="_blank">https:&#x2F;&#x2F;austinmcconnell.dev</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon pull-left text-center"><span class="fa fa-github fa-fw"></span>
-                            </div>
-                            <div class="title pull-right">Github</div>
-                            <div class="description pull-right"><a href="https:&#x2F;&#x2F;github.com&#x2F;austinmcconnell" target="_blank">austinmcconnell</a>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="icon pull-left text-center"><span class="fa fa-linkedin fa-fw"></span>
-                            </div>
-                            <div class="title pull-right">LinkedIn</div>
-                            <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;austinmcconnell"
-                                target="_blank">austinmcconnell</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- EDUCATION -->
-                    <div class="box">
-                         <h2><i class="fa fa-university ico"></i> Education</h2>
+                <div class="item">
+                     <h3 class="name">Real Massive</h3>
+ <span class="position">Full Stack Engineer</span>
+ <span class="location">Austin, TX</span>
 
-                        <ul id="education" class="clearfix">
-                            <li>
-                                <div class="year pull-left">2006 2011</div>
-                                <div class="description pull-right">
-                                     <h3>Texas A&amp;M University</h3>
-
-                                    <p><i class="fa fa-graduation-cap ico"></i> Bachelor of Science</p>
-                                    <p>Aerospace Engineering</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- SKILLS -->
-                    <div class="box">
-                         <h2><i class="fa fa-tasks ico"></i> Skills</h2>
-
-                        <div class="skills clearfix">
-                            <div class="item-skills">Data Analysis</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">Machine Learning</span>
- <span class="skill badge">Regression</span>
-
-                                <span
-                                class="skill badge">Clustering</span> <span class="skill badge">Classification</span>
-
-                                    <span
-                                    class="skill badge">Predictive Analytics</span> <span class="skill badge">Web Scraping</span>
-
-                                        <span
-                                        class="skill badge">Data Mining</span>
-                            </div>
-                        </div>
-                        <div class="skills clearfix">
-                            <div class="item-skills">Software Languages</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">Python</span>
- <span class="skill badge">SQL</span>
-
-                                <span
-                                class="skill badge">Matlab</span> <span class="skill badge">Bash</span>
-
-                            </div>
-                        </div>
-                        <div class="skills clearfix">
-                            <div class="item-skills">Python Packages</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">Jupyter Notebook</span>
- <span class="skill badge">Pandas</span>
-
-                                <span
-                                class="skill badge">scikit-learn</span> <span class="skill badge">Bokeh</span>
- <span class="skill badge">Seaborn</span>
-
-                                    <span
-                                    class="skill badge">SQLAlchemy</span> <span class="skill badge">Scrapy</span>
-
-                            </div>
-                        </div>
-                        <div class="skills clearfix">
-                            <div class="item-skills">Databases</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">PostgreSQL</span>
- <span class="skill badge">MySQL</span>
-
-                                <span
-                                class="skill badge">SQL Server Pro</span>
-                            </div>
-                        </div>
-                        <div class="skills clearfix">
-                            <div class="item-skills">Version Control and Deployment</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">Git</span>
- <span class="skill badge">Travis-CI</span>
-
-                                <span
-                                class="skill badge">Ansible</span> <span class="skill badge">Vagrant</span>
-
-                            </div>
-                        </div>
-                        <div class="skills clearfix">
-                            <div class="item-skills">Operating Systems</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="skill badge">OS X</span>
- <span class="skill badge">Windows</span>
-
-                                <span
-                                class="skill badge">Linux</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- LANGUAGES -->
-                    <div class="box">
-                         <h2><i class="fa fa-language ico"></i> Languages</h2>
-
-                        <ul class="list-group">
-                            <li class=" list-group-item">English<span class="skill badge pull-right">Native Language</span>
-                            </li>
-                            <li class=" list-group-item">German<span class="skill badge pull-right">Beginner</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- HOBBIES -->
-                    <div class="box">
-                         <h2><i class="fa fa-heart ico"></i> Interests</h2>
-
-                        <div class="interests clearfix">
-                            <div class="item-interests">Raspberry Pi</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="interest badge">Plex Media Server</span>
- <span class="interest badge">Owncloud</span>
-
-                                <span
-                                class="interest badge">VPN</span>
-                            </div>
-                        </div>
-                        <div class="interests clearfix">
-                            <div class="item-interests">Kaggle Competitions</div>
-                            <div class="col-sm-offset-1 col-sm-12 clearfix"> <span class="interest badge">Titanic</span>
- <span class="interest badge">House Prices</span>
-
-                            </div>
-                        </div>
-                    </div>
+                    <span
+                    class="date"> <span class="startDate">May 2017</span>
+ <span class="endDate">- Present</span>
+</span>
+                        <div
+                        class="summary">
+                            <p>Joined RealMassive to improve the existing application development/deployment
+                                process and environment.</p>
                 </div>
-            </div>
+                <ul class="highlights">
+                    <li>Built and deployed an ETL pipeline in Python that can process 3.6 Million
+                        records per day.</li>
+                    <li>Saved company 50k per year by optimizing infrastructure needs and application
+                        memory/cpu requirements</li>
+                    <li>Reduced Docker image sizes by 400% by rebuilding existing containers using
+                        best practices.</li>
+                    <li>Co-led backend development effort for major redesign of products and platform.
+                        Closely worked with Product Owner to define and clarify requirements.</li>
+                    <li>Created and maintained fully automated CI/CD pipelines for code deployment
+                        using CircleCI.</li>
+                    <li>Maintained existing and deployed new microservices using Kubernetes, Terraform,
+                        and Helm for repeatable infrastructure deployments across multiple environments.</li>
+                    <li>Designed a new database model schema for ingestion pipeline based on product
+                        requirements.</li>
+                    <li>Implemented tooling to improve developer velocity using git pre-commit
+                        hooks. These hooks automatically perform 15+ checks that ensure code meets
+                        development standards which reduces subjectivity in PRs and increases maintainability
+                        of our code bases.</li>
+                </ul>
         </div>
+        <div class="item">
+             <h3 class="name">Lockheed Martin</h3>
+ <span class="position">Data Engineer</span>
+ <span class="location">Fort Worth, TX</span>
+
+            <span
+            class="date"> <span class="startDate">Jun 2014</span>
+ <span class="endDate">- Apr 2017</span>
+</span>
+                <div
+                class="summary">
+                    <p>Joined Lockheed Martin Modeling &amp; Analysis team to lead global aircraft
+                        logistics simulation effort. Obtained a government security clearance.</p>
+        </div>
+        <ul class="highlights">
+            <li>Youngest Study Lead ever for government contract deliverable. Output from
+                the deliverable was used to directly support negotiation of a $1.9B annualized
+                contract.</li>
+            <li>Successfully decreased the time and cost to produce contract deliverable
+                by 90% by fully automating the simulation, analysis, and report generation
+                process.</li>
+            <li>Created a multi-threaded, multi-processing agent-based file watcher program
+                in Python for automation of simulation post-processing. Multiple pipelines
+                stored processed results in a variety of formats and databases.</li>
+            <li>Primary modeler in charge of massive 10-year global simulation which included
+                planned squadron size and flight hours for US and partner countries, planned
+                and actual spare part purchases, and engineered and actual failure rates
+                for thousands of parts.</li>
+        </ul>
+        </div>
+        <hr class="style2">
+        </section>
+        <section id="education">
+             <h2>Professional Development & Education</h2>
+
+            <div class="item"> <span class="studyType">BS</span>
+ <span class="area">Aerospace Engineering</span>
+
+                <br> <span class="institution">Texas A&amp;M University</span>
+ <span class="location">College Station, TX</span>
+
+                <span
+                class="year">2011</span>
+            </div>
+            <hr class="style2">
+        </section>
+        <section id="skills">
+             <h2>Technical Skills</h2>
+
+            <div class="item">
+                <ul class="keywords">
+                    <li>Python</li>
+                    <li>Flask</li>
+                    <li>SQLAlchemy</li>
+                    <li>Docker</li>
+                    <li>Kubernetes</li>
+                    <li>Terraform</li>
+                    <li>Amazon Web Services (AWS)</li>
+                    <li>PostgreSQL</li>
+                    <li>SQL</li>
+                    <li>Git</li>
+                    <li>CircleCI</li>
+                </ul>
+            </div>
+        </section>
     </body>
 
 </html>
