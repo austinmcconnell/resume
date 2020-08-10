@@ -29,17 +29,33 @@
   },
   "work": [
     {
+      "company": "SparkCognition",
+      "position": "Senior Backend Engineer",
+      "location": "Austin, TX",
+      "website": "https://sparkcognition.com",
+      "startDate": "2019-10-28",
+      "endDate": "",
+      "summary": "Joined SparkCognition to take DeepNLP product to next-level in both code architecture and deployment efficiency",
+      "highlights": [
+        "Designed and implemented background job processing and queueing system to parallelize ingestions and transformations.",
+        "Proposed and partially implemented changes to decouple suite of 8 highly-coupled apps and vastly decrease deployment complexity.",
+        "Proposed and implemented changes to Agile/Scrum process to increase team efficiency and decrease time between product releases.",
+        "Removed 5000+ lines of unused code to clean up core product and increase readability & maintainability.",
+        "Implemented team coding standards to improve code readability."
+      ]
+    },
+    {
       "company": "Real Massive",
       "position": "Full Stack Engineer",
       "location": "Austin, TX",
       "website": "https://realmassive.com",
       "startDate": "2017-05-22",
-      "endDate": "",
+      "endDate": "2019-10-25",
       "summary": "Joined RealMassive to improve the existing application development/deployment process and environment.",
       "highlights": [
         "Built and deployed an ETL pipeline in Python that can process 3.6 Million records per day.",
         "Saved company 50k per year by optimizing infrastructure needs and application memory/cpu requirements",
-        "Reduced Docker image sizes by 400% by rebuilding existing containers using best practices.",
+        "Reduced Docker image sizes by 400% by restructuring existing containers using best practices.",
         "Co-led backend development effort for major redesign of products and platform. Closely worked with Product Owner to define and clarify requirements.",
         "Created and maintained fully automated CI/CD pipelines for code deployment using CircleCI.",
         "Maintained existing and deployed new microservices using Kubernetes, Terraform, and Helm for repeatable infrastructure deployments across multiple environments.",
@@ -105,6 +121,7 @@
         "Kubernetes",
         "Terraform",
         "Amazon Web Services (AWS)",
+        "Google Cloud Platform (GCP)",
         "PostgreSQL",
         "SQL",
         "Git",
