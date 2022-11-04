@@ -38,9 +38,9 @@
       "summary": "Guided architectural decisions, reduced operating costs, and improved developer efficiency across two core products (DeepNLP and ML Studio).",
       "highlights": [
         "Designed and implemented a job processing and queueing system to parallelize document ingestions and transformations.",
-        "Reduced time to onboard a new customer from 6 weeks to 2 days, a 95% decrease, using Helmsman",
-        "Was on the Architecture Council where I helped guide architectural decisions across our division",
-        "Led the creation of a web API standard to ensure a consistent user experience across all our services",
+        "Reduced time to onboard a new customer from 6 weeks to 2 days, a 95% decrease, using Helmsman.",
+        "Guided techincal architecture decisions for the company while on the Architecture Council.",
+        "Led the creation of a web API standard to ensure a consistent user experience across all our services.",
         "Proposed and partially implemented changes to decouple a suite of 8 highly-coupled apps and vastly decrease deployment complexity.",
         "Proposed and implemented changes to the Agile/Scrum process to increase team efficiency and decrease the time between product releases.",
         "Removed 5000+ lines of unused code to clean up a core product and increase readability & maintainability.",
