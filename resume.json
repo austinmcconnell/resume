@@ -37,11 +37,14 @@
       "endDate": "2022-11-02",
       "summary": "Joined SparkCognition to take DeepNLP product to next-level in both code architecture and deployment efficiency",
       "highlights": [
-        "Designed and implemented background job processing and queueing system to parallelize ingestions and transformations.",
+        "Designed and implemented job processing and queueing system to parallelize document ingestions and transformations.",
+        "Reduced time to onboard new customer from 6 weeks to 2 days, a 95% decrease, suing Helmsman",
+        "Was on the Architecture Council where I helped guide architectural decisions across our division",
+        "Led the creation of a web API standard to ensure a consistent user experience across all our services",
         "Proposed and partially implemented changes to decouple suite of 8 highly-coupled apps and vastly decrease deployment complexity.",
         "Proposed and implemented changes to Agile/Scrum process to increase team efficiency and decrease time between product releases.",
         "Removed 5000+ lines of unused code to clean up core product and increase readability & maintainability.",
-        "Implemented team coding standards to improve code readability."
+        "Implemented team coding standards to improve code readability and increase developer efficiency."
       ]
     },
     {
