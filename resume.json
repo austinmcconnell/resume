@@ -34,7 +34,7 @@
       "location": "Austin, TX",
       "website": "https://sparkcognition.com",
       "startDate": "2019-10-28",
-      "endDate": "",
+      "endDate": "2022-11-02",
       "summary": "Joined SparkCognition to take DeepNLP product to next-level in both code architecture and deployment efficiency",
       "highlights": [
         "Designed and implemented background job processing and queueing system to parallelize ingestions and transformations.",
