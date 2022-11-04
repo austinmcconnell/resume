@@ -37,13 +37,13 @@
       "endDate": "2022-11-02",
       "summary": "Guided architectural decisions, reduced operating costs, and improved developer efficiency across two core products (DeepNLP and ML Studio).",
       "highlights": [
-        "Designed and implemented job processing and queueing system to parallelize document ingestions and transformations.",
-        "Reduced time to onboard new customer from 6 weeks to 2 days, a 95% decrease, using Helmsman",
+        "Designed and implemented a job processing and queueing system to parallelize document ingestions and transformations.",
+        "Reduced time to onboard a new customer from 6 weeks to 2 days, a 95% decrease, using Helmsman",
         "Was on the Architecture Council where I helped guide architectural decisions across our division",
         "Led the creation of a web API standard to ensure a consistent user experience across all our services",
-        "Proposed and partially implemented changes to decouple suite of 8 highly-coupled apps and vastly decrease deployment complexity.",
-        "Proposed and implemented changes to Agile/Scrum process to increase team efficiency and decrease time between product releases.",
-        "Removed 5000+ lines of unused code to clean up core product and increase readability & maintainability.",
+        "Proposed and partially implemented changes to decouple a suite of 8 highly-coupled apps and vastly decrease deployment complexity.",
+        "Proposed and implemented changes to the Agile/Scrum process to increase team efficiency and decrease the time between product releases.",
+        "Removed 5000+ lines of unused code to clean up a core product and increase readability & maintainability.",
         "Implemented team coding standards to improve code readability and increase developer efficiency."
       ]
     },
@@ -59,10 +59,10 @@
         "Built and deployed an ETL pipeline in Python that can process 3.6 Million records per day.",
         "Saved company 50k per year by optimizing infrastructure needs and application memory/cpu requirements",
         "Reduced Docker image sizes by 400% by restructuring existing containers using best practices.",
-        "Co-led backend development effort for major redesign of products and platform. Closely worked with Product Owner to define and clarify requirements.",
+        "Co-led backend development effort for a major redesign of products and platform. Closely worked with the Product Owner to define and clarify requirements.",
         "Created and maintained fully automated CI/CD pipelines for code deployment using CircleCI.",
         "Maintained existing and deployed new microservices using Kubernetes, Terraform, and Helm for repeatable infrastructure deployments across multiple environments.",
-        "Designed a new database model schema for ingestion pipeline based on product requirements.",
+        "Designed a new database model schema for an ingestion pipeline based on product requirements.",
         "Implemented tooling to improve developer velocity using git pre-commit hooks. These hooks automatically perform 15+ checks that ensure code meets development standards which reduces subjectivity in PRs and increases maintainability of our code bases."
       ]
     },
