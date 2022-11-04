@@ -12,8 +12,7 @@ repos:
       - id: validate-resume
         name: hackmyresume
         language: node
-        entry: hackmyresume
-        # always_run: true
-        args: ["validate --assert"]
-        files: 'resume.json'
+        entry: hackmyresume validate --assert resume.json
+        args: []
+        files: ''
         types: [json]
