@@ -121,6 +121,7 @@
         "Kubernetes",
         "PostgreSQL",
         "Terraform",
+        "CI/CD Pipelines",
         "Azure",
         "Amazon Web Services (AWS)",
         "Google Cloud Platform (GCP)",
@@ -128,8 +129,7 @@
         "SQLAlchemy",
         "FastAPI",
         "SQL",
-        "Git",
-        "CircleCI"
+        "Git"
       ]
     }
   ],
