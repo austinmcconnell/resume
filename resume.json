@@ -39,10 +39,12 @@
       "highlights": [
         "Designed and implemented a job processing and queueing system to parallelize document ingestions and transformations.",
         "Reduced time to onboard a new customer from 6 weeks to 2 days, a 95% decrease, using Helmsman.",
-        "Guided techincal architecture decisions for the company while on the Architecture Council.",
         "Led the creation of a web API standard to ensure a consistent user experience across all our services.",
-        "Removed 5000+ lines of unused code to clean up a core product and increase readability & maintainability.",
-        "Implemented team coding standards to improve code readability and increase developer efficiency."
+        "Used Docker, Jenkins CI/CD pipelines, and Helm/Kubernetes manifests to decrease time-to-production and decrease baseline costs",
+        "Managed one summer intern in 2021. Mentored team interns and new hires in 2022",
+        "Guided technical architecture decisions for the company while on the Architecture Council.",
+        "Removed 5000+ lines of unused code to increase readability & maintainability.",
+        "Implemented automatic team coding standards to improve code readability and increase developer efficiency."
       ]
     },
     {
