@@ -120,6 +120,7 @@
         "Docker",
         "Kubernetes",
         "PostgreSQL",
+        "Redis",
         "Terraform",
         "CI/CD Pipelines",
         "Azure",
