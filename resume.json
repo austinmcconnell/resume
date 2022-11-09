@@ -6,7 +6,7 @@
     "email": "austin@austinmcconnell.dev",
     "phone": "469-441-4199",
     "website": "https://austinmcconnell.dev",
-    "summary": "I build performant web apps, REST APIs, and ETL Pipelines. I emphasize clean, maintainable code focusing on readability and language-specific best practices. I build fully-automated CI/CD pipelines and I practice infrastructure-as-code. I have held a security clearance from the US government.",
+    "summary": "I build performant web apps, REST APIs, and ETL Pipelines using Python. I emphasize clean, maintainable code focusing on readability and language-specific best practices. I build fully-automated CI/CD pipelines, deploy Dockerized contianers using Kubernetes, and I practice infrastructure-as-code. I have held a security clearance from the US government.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -37,9 +37,10 @@
       "endDate": "2022-11-02",
       "summary": "Guided architectural decisions, reduced operating costs, and improved developer efficiency across two core products (DeepNLP and ML Studio).",
       "highlights": [
-        "Designed and implemented a job processing and queueing system to parallelize document ingestions and transformations.",
+        "Designed and implemented a job processing and queueing system in Python to parallelize document ingestions and transformations.",
+        "Designed and built a service to generate engineered features from time series data in Python. Features could be updated on a given schedule.",
         "Reduced time to onboard a new customer from 6 weeks to 2 days, a 95% decrease, using Helmsman.",
-        "Led the creation of a web API standard to ensure a consistent user experience across all our services.",
+        "Led the creation of a web API standard to ensure a consistent user experience across all our REST APIs.",
         "Used Docker, Jenkins CI/CD pipelines, and Helm/Kubernetes manifests to decrease time-to-production and decrease baseline costs",
         "Managed one summer intern in 2021. Mentored team interns and new hires in 2022",
         "Guided technical architecture decisions for the company while on the Architecture Council.",
