@@ -6,8 +6,19 @@ You can view my resume by going to [https://austinmcconnell.github.io/resume](ht
 
 This is built with [HackMyResume](https://github.com/hacksalot/HackMyResume) and uses CircleCI to build the webpage and deploy to GitHubPages.
 
-
 ## Local Development
+
+Install project-specific version of node
+
+```bash
+nvm install $(cat .nvmrc)
+```
+
+Activate project-specific version of node
+
+```bash
+nvm use $(cat .nvmrc)
+```
 
 Install hackmyresume globally
 
