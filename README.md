@@ -35,8 +35,10 @@ npm install
 Build resume webpage
 
 ```bash
-npm build
+hackmyresume build resume.json TO out/index.html --theme node_modules/jsonresume-theme-austinmcconnell
 ```
+
+or use VS Code `Build index.html` task
 
 ## Custom jsonresume theme
 
