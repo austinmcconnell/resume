@@ -11,7 +11,7 @@
     "url": "git+https://github.com/austinmcconnell/resume.git"
   },
   "dependencies": {
-    "hackmyresume": "1.9.0-beta",
+    "resume-cli": "^3.0.8",
     "jsonresume-theme-austinmcconnell": "0.0.1"
   },
   "devDependencies": {},
@@ -22,6 +22,6 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "hackmyresume build resume.json TO index.html --theme node_modules/jsonresume-theme-austinmcconnell"
+    "build": "node_modules/.bin/resume export --format html --theme jsonresume-theme-austinmcconnell out/index.html"
   }
 }

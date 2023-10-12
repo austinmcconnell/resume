@@ -3,33 +3,23 @@
 	"tasks": [
 		{
 			"label": "Build index.html",
-			"command": "node_modules/.bin/hackmyresume",
+			"command": "node_modules/.bin/resume",
 			"args": [
-				"build",
-				"resume.json",
-				"TO",
-				"out/index.html",
+				"export",
+				"--format",
+				"html",
 				"--theme",
-				"node_modules/jsonresume-theme-austinmcconnell"
+				"jsonresume-theme-austinmcconnell",
+				"out/index.html"
 			],
 			"type": "shell",
 			"problemMatcher": []
 		},
 		{
 			"label": "Validate Resume",
-			"command": "node_modules/.bin/hackmyresume",
+			"command": "node_modules/.bin/resume",
 			"args": [
 				"validate",
-				"resume.json"
-			],
-			"type": "shell",
-			"problemMatcher": []
-		},
-		{
-			"label": "Analyze Resume",
-			"command": "node_modules/.bin/hackmyresume",
-			"args": [
-				"analyze",
 				"resume.json"
 			],
 			"type": "shell",
