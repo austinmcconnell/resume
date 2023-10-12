@@ -29,7 +29,7 @@ npm install
 Build resume webpage
 
 ```bash
-node_modules/.bin/resume export --format html index.html
+node_modules/.bin/resume export --format html --theme jsonresume-theme-austinmcconnell public/index.html
 ```
 
 or use VS Code `Build index.html` task

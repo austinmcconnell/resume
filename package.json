@@ -22,6 +22,6 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "node_modules/.bin/resume export --format html --theme jsonresume-theme-austinmcconnell out/index.html"
+    "build": "node_modules/.bin/resume export --format html --theme jsonresume-theme-austinmcconnell public/index.html"
   }
 }

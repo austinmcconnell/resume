@@ -21,7 +21,7 @@
 				"html",
 				"--theme",
 				"jsonresume-theme-austinmcconnell",
-				"out/index.html"
+				"public/index.html"
 			],
 			"type": "shell",
 			"problemMatcher": []
