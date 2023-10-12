@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "resume-cli": "^3.0.8",
-    "jsonresume-theme-austinmcconnell": "0.0.1"
+    "jsonresume-theme-austinmcconnell": "0.0.2"
   },
   "devDependencies": {},
   "bugs": {},
