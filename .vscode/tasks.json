@@ -2,6 +2,17 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
+			"label": "Serve resume",
+			"command": "node_modules/.bin/resume",
+			"args": [
+				"serve",
+				"--theme",
+				"jsonresume-theme-austinmcconnell"
+			],
+			"type": "shell",
+			"problemMatcher": []
+		},
+		{
 			"label": "Build index.html",
 			"command": "node_modules/.bin/resume",
 			"args": [
