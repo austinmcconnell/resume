@@ -35,9 +35,8 @@
       "website": "https://uniteus.com",
       "startDate": "2022-12-12",
       "highlights": [
-        "Converted an ETL pipeline containing 4 Lamba/SQS pairs into a single python web app which decreased execution time 3x",
-        "Maintained and improved an ETL pipeline to procegsss external healthcare screenings.",
-        "Refactored a fragmented document generation codebase which decreased complexity and improved development speed.",
+        "Maintained and improved an ETL pipeline for processing healthcare screenings.",
+        "Decreased complexity and improved development speed by refactoring a fragmented codebase",
         "Implemented a standardized app deployment process that included triggers, version tags, and changelogs.",
         "Refactored terraform modules to align with best practices and improve maintainability.",
         "Implemented coding standards via CI checks to improve code maintainability and readability."
