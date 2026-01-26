@@ -6,7 +6,7 @@
     "email": "austin@austinmcconnell.dev",
     "phone": "469-441-4199",
     "website": "https://austinmcconnell.dev",
-    "summary": "I build performant web apps, REST APIs, and ETL Pipelines using Python. I emphasize clean, maintainable code focusing on readability and language-specific best practices. I build fully-automated CI/CD pipelines, deploy Dockerized contianers using Kubernetes, and I practice infrastructure-as-code. I have held a security clearance from the US government.",
+    "summary": "I build performant web apps, REST APIs, and ETL Pipelines using Python. I emphasize clean, maintainable code focusing on readability and language-specific best practices. I build fully-automated CI/CD pipelines, deploy Dockerized containers using Kubernetes, and I practice infrastructure-as-code. I have held a security clearance from the US government.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,11 +34,13 @@
       "location": "Remote, USA",
       "website": "https://uniteus.com",
       "startDate": "2022-12-12",
+      "summary": "Led technical architecture and infrastructure improvements for healthcare screening ingestion platform, focusing on FHIR bundle processing, AWS infrastructure modernization, and production reliability",
       "highlights": [
-        "Maintained and improved an ETL pipeline for processing healthcare screenings.",
+        "Architected and implemented idempotent FHIR bundle processing system preventing duplicate healthcare screenings, including race condition prevention for concurrent bundle submissions.",
+        "Improved system observability by establishing comprehensive Datadog monitoring with custom dashboards and alerts and emitting custom metrics from code.",
+        "Modernized infrastructure and deployment practices by refactoring Terraform modules and implementing standardized deployment processes with automated triggers, version tags, and changelogs",
+        "Maintained and improved an ETL pipeline for processing healthcare screenings",
         "Decreased complexity and improved development speed by refactoring a fragmented codebase",
-        "Implemented a standardized app deployment process that included triggers, version tags, and changelogs.",
-        "Refactored terraform modules to align with best practices and improve maintainability.",
         "Implemented coding standards via CI checks to improve code maintainability and readability."
       ]
     },
@@ -124,7 +126,7 @@
       "courses": []
     }
   ],
-  "awards":[],
+  "awards": [],
   "publications": [],
   "skills": [
     {
@@ -137,10 +139,14 @@
         "PostgreSQL",
         "Redis",
         "Terraform",
+        "Helm",
+        "FHIR/HL7",
         "CI/CD Pipelines",
+        "GitHub Actions",
         "Azure",
         "Amazon Web Services (AWS)",
         "Google Cloud Platform (GCP)",
+        "Datadog",
         "Flask",
         "SQLAlchemy",
         "FastAPI",
