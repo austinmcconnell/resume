@@ -104,7 +104,7 @@
       "website": "http://lockheedmartin.com",
       "startDate": "2012-01-16",
       "endDate": "2014-06-14",
-      "summary": "Lockheed Martin is a global aerospace company that is principally engaged in the research, design, development, manufacture, integration, and sustainment of military aircraft.",
+      "summary": "Joined the Subsystems Integrity and Force Life Management team to design software solutions for part lifecycle tracking and aircraft flight data analysis.",
       "highlights": [
         "Wrote custom software to automatically detect and parse raw aircraft flight data and store the results in a database.",
         "Provided code design and data analysis for 6 part utilization reports.",
